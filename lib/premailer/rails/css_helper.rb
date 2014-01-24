@@ -10,7 +10,6 @@ class Premailer
         CSSLoaders::CacheLoader,
         CSSLoaders::FileSystemLoader,
         CSSLoaders::AssetPipelineLoader,
-        CSSLoaders::NetworkLoader
       ]
 
       # Returns all linked CSS files concatenated as string.
